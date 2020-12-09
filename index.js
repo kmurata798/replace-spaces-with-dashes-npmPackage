@@ -1,19 +1,7 @@
-// const sayHi = () => {
-//   console.log("HIIIIIIIIIIIII!!!");
-// }
-// const sayBye = () => {
-//     console.log("BYEEEEEEEEEEEEE!!!");
-// }
-
-// module.exports = {
-//   sayHi,
-//   sayBye
-// }
-
 module.exports = {
     addDashes: (string) => {
         // Replace all white spaces in a given string with dashes (-)
-        console.log("Replacing spaces with dashes...")
+        console.log("This sentence shouldnt have spaces.")
 
         // Must use RegExp /\s+/g to find each whitespace
         // \s means 'one space' and \s+ means 'one or more spaces'
